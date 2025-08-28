@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend API for Personal Project & Task Manager",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "lint": "eslint src/",
+    "format": "prettier --write src/"
+  },
+  "keywords": [],
+  "author": "Raúl Navas Montero",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.x.x",
+    "cors": "^2.8.5",
+    "dotenv": "^16.x.x",
+    "express": "^4.x.x"
+  },
+  "devDependencies": {
+    "eslint": "^8.x.x",
+    "eslint-config-prettier": "^9.x.x",
+    "eslint-plugin-prettier": "^5.x.x",
+    "nodemon": "^3.x.x",
+    "prettier": "^3.x.x",
+    "prisma": "^5.x.x"
+  }
+}
