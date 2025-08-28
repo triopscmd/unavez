@@ -1,0 +1,19 @@
+{
+  "services": {
+    "frontend": {
+      "command": "npm run dev",
+      "cwd": "frontend",
+      "env": {
+        "VITE_API_BASE_URL": "http://localhost:3000/api"
+      }
+    },
+    "backend": {
+      "command": "npm run dev",
+      "cwd": "backend",
+      "env": {
+        "PORT": 3000,
+        "DATABASE_URL": "file:./dev.db"
+      }
+    }
+  }
+}
