@@ -1,0 +1,35 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.x.x",
+    "react": "^18.x.x",
+    "react-dom": "^18.x.x",
+    "react-router-dom": "^6.x.x"
+  },
+  "devDependencies": {
+    "@types/react": "^18.x.x",
+    "@types/react-dom": "^18.x.x",
+    "@typescript-eslint/eslint-plugin": "^6.x.x",
+    "@typescript-eslint/parser": "^6.x.x",
+    "@vitejs/plugin-react": "^4.x.x",
+    "autoprefixer": "^10.x.x",
+    "eslint": "^8.x.x",
+    "eslint-plugin-react-hooks": "^4.x.x",
+    "eslint-plugin-react-refresh": "^0.4.x",
+    "postcss": "^8.x.x",
+    "prettier": "^3.x.x",
+    "prettier-plugin-tailwindcss": "^0.5.x",
+    "tailwindcss": "^3.x.x",
+    "typescript": "^5.x.x",
+    "vite": "^5.x.x"
+  }
+}
